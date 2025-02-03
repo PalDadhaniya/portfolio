@@ -1,0 +1,264 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #1d1c1b;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: #696664;  */
+  padding: 0px;
+  backdrop-filter: blur(10px);
+}
+.Pal {
+  font-size: 40px;
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 15px 0px 0px 30px;
+}
+.menu {
+  display: flex;
+  gap: 42px;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 25px;
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+.mainbox {
+  background-color: #22211f;
+  padding-top: 50px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.hireme {
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+  color: white;
+  margin: 15px 15px 0px 0px;
+  background-color: orange;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.detail {
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  margin-top: 120px;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 24px;
+  padding-bottom: 15 px;
+}
+.name {
+  font-size: 80px;
+  letter-spacing: 15px;
+  text-shadow: 7px 8px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.devloper {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+.devinfo {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.nnn {
+  color: #ffc107;
+}
+.color {
+  font-size: 80px;
+  letter-spacing: 15px;
+  color: #ffc107;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.img {
+  max-width: 450px;
+  width: 100%;
+  height: 90%;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.section {
+  display: flex;
+  gap: 8rem;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+}
+.icons img {
+  height: 50px;
+  width: 50px;
+}
+.ppp {
+  display: flex;
+  gap: 15px;
+}
+.ppp img {
+  height: 30px;
+  width: 30px;
+  margin-top: 25px;
+}
+.cv {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background-color: #1d1c1b;
+  color: #ffc107;
+  font-size: 20px;
+  border-radius: 20px;
+  gap: 150px;
+  display: inline-block;
+  border: 1px solid #ffc107;
+  box-shadow: 2px 2px#ffc107;
+  margin-top: 20px;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 70px;
+}
+.brief {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif, cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffc107;
+  margin-bottom: 0px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 90%;
+  border: solid black;
+  background-color: #1d1c1b;
+  box-shadow: 10px 10px #1d1c1b;
+  margin: 10px 60px 0px 60px;
+}
+.p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+}
+/* part three */
+.three {
+  margin-top: 150px;
+}
+.project {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 40px;
+}
+.web {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif, cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffc107;
+}
+.projectimg {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.projectimg img {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  border-radius: 40px;
+}
+.lll {
+  display: flex;
+
+  color: white;
+  font-size: 30px;
+  margin: 20px 60px 20px 60px;
+  justify-content: space-between;
+}
+.view {
+  border: solid black;
+  margin: 55px 45px 45px 45px;
+  height: 50px;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  box-shadow: 8px 7px 2px #ffc107;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif, cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffc107;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 40px;
+}
+
+.logo {
+  border: 1px solid rgb(255, 255, 255);
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+.new {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.logo img {
+  height: 150px;
+}
+.websiteloyo {
+  height: 100%;
+  width: 100%;
+  border: solid black;
+  border-radius: 50%;
+}

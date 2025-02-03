@@ -38,6 +38,7 @@ header {
 .mainbox {
   background-color: #22211f;
   padding-top: 50px;
+  /* margin-bottom: 50px; */
 }
 .main {
   display: flex;
@@ -161,7 +162,7 @@ header {
   border: solid black;
   background-color: #1d1c1b;
   box-shadow: 10px 10px #1d1c1b;
-  margin: 10px 60px 0px 60px;
+  margin: 10px 60px 50px 60px;
 }
 .p {
   padding-left: 35px;
@@ -264,4 +265,7 @@ header {
   width: 100%;
   border: solid black;
   border-radius: 50%;
+}
+.four {
+  margin-top: 150px;
 }

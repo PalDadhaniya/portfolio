@@ -59,12 +59,10 @@ header {
   display: flex;
   flex-wrap: nowrap;
   color: white;
-  margin-top: 120px;
   font-size: 25px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-left: 24px;
-  padding-bottom: 15 px;
+  /* vertical-align: middle; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  padding: 100px 20px 70px;
 }
 .name {
   font-size: 80px;
@@ -169,7 +167,7 @@ header {
   padding-left: 35px;
   padding-right: 35px;
   font-size: 20px;
-  color: white;
+  color: #858585;
   text-align: justify;
   font-family: "Jost", sans-serif;
   list-style: none;
@@ -296,11 +294,11 @@ header {
 }
 .five {
   background-color: #1a1a1a;
+  scroll-behavior: smooth;
 }
 .lastp {
   display: flex;
   justify-content: center;
-  /* text-align: center; */
   margin: 30px 60px;
   color: #858585;
 }

@@ -198,12 +198,13 @@ header {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  object-fit: fill;
 }
 .projectimg img {
   height: 300px;
   width: 400px;
-  display: flex;
   border-radius: 40px;
+  object-fit: cover;
 }
 .lll {
   display: flex;
